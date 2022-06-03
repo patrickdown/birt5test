@@ -313,7 +313,6 @@ GameObject:
   - component: {fileID: 1145860667}
   - component: {fileID: 1145860666}
   - component: {fileID: 1145860665}
-  - component: {fileID: 1145860669}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -400,21 +399,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1145860669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145860664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a64494f0a4830842bd750b089552c73, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boardLocation: {fileID: 1927191059}
-  glassesLocation: {fileID: 1927191058}
-  maxOffsetDistance: 0
 --- !u!1001 &1927191057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -484,13 +468,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cdaf98efe7c69adca90cde48da559cc, type: 3}
---- !u!4 &1927191058 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5096850156648964929, guid: 9cdaf98efe7c69adca90cde48da559cc, type: 3}
-  m_PrefabInstance: {fileID: 1927191057}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1927191059 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5096850158276147074, guid: 9cdaf98efe7c69adca90cde48da559cc, type: 3}
-  m_PrefabInstance: {fileID: 1927191057}
-  m_PrefabAsset: {fileID: 0}
